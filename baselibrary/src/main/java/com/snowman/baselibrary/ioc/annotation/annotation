@@ -1,0 +1,15 @@
+
+
+@Target(ElementType.FIELD)
+
+
+SOURCE ： 源码资源
+CLASS ： 编译时
+RUNTIME ：运行时
+@Retention(RetentionPolicy.SOURCE)
+
+
+
+public @interface ViewById {
+    int value();
+}
